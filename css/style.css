@@ -1,0 +1,416 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #696464;
+}
+
+.navbar-brand {
+    color: #696464;
+    font-family: 'Francois One', sans-serif;
+}
+
+.top-nav-links {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #696464;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #696464;
+}
+
+.nav-link:hover {
+    color: #696464;
+    filter: opacity(60%);
+
+}
+
+.top-nav-links {
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.top-nav-links:hover {
+    filter: opacity(60%);
+}
+
+.navbar {
+    padding-bottom: 1%;
+
+}
+
+.navigation {
+    border: solid 1px lightgrey;
+    border-top: none;
+    border-bottom-width: 2px;
+    background-image: linear-gradient(white, #f8f8f8);
+}
+
+.hub {
+    color: #696464;
+}
+
+span {
+    color: #ff5200;
+    font-weight: bold;
+}
+
+.nav {
+    padding-top: 10%;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    padding: 2%;
+    border: solid 1px lightgrey;
+}
+
+.img-thumbnail {
+    margin-bottom: 10%;
+}
+
+img:hover {
+    filter: opacity(80%);
+    transform: scale(1.05);
+    border: solid 1px #ff5200;
+}
+
+.fab {
+    margin: 1rem 1rem 2rem;
+    color: #696464;
+}
+
+.fab:hover {
+    color: #ff5200;
+    opacity: 90%;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.float-box {
+    float: left;
+    margin: 2% 5% 1% 5%;
+}
+
+.table {
+    text-align: center;
+    border: solid 1px lightgrey;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #696464;
+}
+
+.shipping {
+    border: solid 1px lightgrey;
+    border-bottom-width: 2px;
+    background-image: linear-gradient(white, #f8f8f8, #f3f3f3);
+}
+
+button {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #696464;
+}
+
+.btn {
+    border-color: lightgrey;
+    background-image: linear-gradient(white, #f8f8f8);
+}
+
+.btn:hover {
+    background-image: linear-gradient(white, #ff5200);
+    filter: opacity(60%);
+    border-color: lightgrey;
+    color: black;
+}
+
+#subscribe {
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    border-right: solid 1px lightgrey;
+    border-left: solid 1px lightgrey;
+}
+
+.subscribe-btn {
+    padding: 8%;
+    margin-top: 10%;
+    color: #696464;
+}
+
+.home-form {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border: solid 1px lightgrey;
+    border-radius: 2%;
+    background-image: linear-gradient(white, #f8f8f8, #f3f3f3);
+}
+
+.catalogue {
+    padding-top: 2%;
+
+}
+
+.price {
+    margin-left: 85%;
+    padding-top: 5%;
+}
+
+#vinyl-selection {
+    padding-left: 2%;
+    padding-right: 2%;
+    border-right: solid 1px lightgrey;
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    border: solid 1px lightgrey;
+    border-bottom: none;
+    border-top: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.carousel-image {
+    width: 80%;
+    height: 80%;
+    padding: 2%;
+    border: solid 1px lightgrey;
+    cursor: pointer;
+}
+
+.carousel-image:hover {
+    filter: opacity(100%);
+    transform: scale(1);
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #ff5200;
+}
+
+.carousel-item {
+    padding: 5% 2% 4% 18%;
+}
+
+.vinyl-slide {
+    padding: 0;
+    border-right: solid 2px lightgrey;
+}
+
+
+.about {
+    border-right: solid 1px lightgrey;
+}
+
+.home-form h4 {
+    font-size: 1.4rem;
+}
+
+.change {
+    animation: change 1 10s;
+}
+
+@keyframes change {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: #fc8210;
+    }
+
+    100% {
+        background-color: white;
+    }
+
+}
+
+.ship-para {
+    margin: 1.7% 5% 0 0;
+}
+
+.welcome {
+    border: solid 1.2px lightgrey;
+    padding: 2%;
+}
+
+.user-image {
+    height: 200px;
+    width: 200px;
+    border: none;
+    position: relative;
+    float: left;
+
+}
+
+.user-image:hover {
+    border: none;
+    transform: none;
+    filter: opacity(100%);
+}
+
+.testimonials {
+    border: solid 1px lightgrey;
+    border-bottom: none;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.user-qoute {
+    margin-left: 20%;
+    margin-top: 2%;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.submit-btn {
+    padding: 2%;
+    margin-top: 3%;
+    color: #696464;
+}
+
+.form-check {
+    margin-top: 3%;
+}
+
+.sign-form {
+    border: solid 1px lightgrey;
+    border-radius: 2%;
+    padding: 2%;
+    margin-top: 2%;
+    background-image: linear-gradient(white, #f8f8f8, #f3f3f3);
+}
+
+.sign-width {
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+.sign-up {
+    border-right: solid 1px lightgrey;
+}
+
+.sign-contact {
+    border-top: solid 1px lightgrey;
+}
+
+.item-image {
+    height: 90%;
+    width: 90%;
+    margin: 2%;
+}
+
+.item-image:hover {
+    border: solid 1px lightgrey;
+    transform: scale(1);
+    filter: opacity(100%);
+}
+
+.buy-btn-item {
+    color: #696464;
+    font-size: 1.2rem;
+    font-weight: bold;
+    float: left
+}
+
+.buy-btn {
+    color: #696464;
+    float: left;
+    padding: 2%;
+}
+
+.cartBtn {
+    margin-left: 2%;
+}
+
+.price-item {
+
+    margin-left: 80%;
+    font-size: 1.5rem;
+    padding-top: 1.5%;
+}
+
+.item-div {
+    margin-top: 30%;
+}
+
+.cat-div {
+    margin-top: 25%;
+}
+
+.fa-shopping-cart {
+    color: #696464;
+}
+
+.fa-shopping-cart:hover {
+    transform: scale(1.03);
+}
+
+#cart-link {
+    margin-right: 2%;
+}
+
+.checkout {
+    margin: 2%;
+    padding: 2%;
+    background-image: linear-gradient(white, #f8f8f8, #f3f3f3);
+    border: solid 1px lightgrey;
+}
+
+.removeBtn {
+    margin-left: 1%;
+    display: inline;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.drop {
+    display: none;
+    font-size: 1.1rem;
+}
+
+#drop {
+    cursor: pointer;
+}
+
+#code {
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+#collection,
+form #delivery,
+#express,
+#standard {
+    margin: 0 2%;
+}

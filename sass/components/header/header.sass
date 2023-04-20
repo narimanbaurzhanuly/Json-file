@@ -1,0 +1,67 @@
+.header 
+    width: 100% 
+    margin-bottom: 50px 
+    display: flex 
+    align-items: center 
+    background: #9c867a
+    
+
+
+    &__wrap
+        width: 100%
+        max-width: 1200px
+        margin: 20px auto 
+        display: flex
+        align-items: center
+
+
+    .tabs
+        font-size: 35px
+        display: flex
+        justify-content: space-between
+
+
+        &__btn
+            color: #ffffff
+            padding: 0 15px 5px 15px
+            &.is-active 
+                background: $color-lightblue
+                border-radius: 25px
+                cursor: default
+
+
+    &__logo
+        width: 210px
+        margin: 0 auto
+
+
+    &__cart-btn
+        border: none
+        background: transparent
+        width: 50px
+        height: 50px
+        margin-right: 0
+        margin-left: auto
+        position: relative
+        cursor: pointer
+        background-image: url('../../images/cart-check.svg')
+        background-size: cover
+        padding: 0
+        display: inline-block
+
+
+    &__cart-items
+        position: absolute
+        top: -10px
+        right: -15px
+        background-color: #949fad
+        width: 30px
+        height: 30px
+        display: grid
+        place-items: center
+        border-radius: 50%
+        color: #fff
+        font-weight: bold
+        font-size: 15px
+
+    

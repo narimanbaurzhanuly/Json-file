@@ -1,0 +1,151 @@
+.products
+    width: 90vw
+    max-width: 1200px
+    display: grid
+    grid-gap: 15px
+    grid-template-columns: 200px 1fr
+    margin: 65px auto
+    position: relative
+    padding-bottom:  100px
+
+    &__list
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr))
+        gap: 30px 15px
+        min-height: 100px
+
+    &__item-hidden
+        display: none    
+
+
+    .product
+        text-align: center
+        position: relative
+
+        &__img
+            width: 100%
+            height: 200px
+            display: block
+            object-fit: cover
+            border-radius: 5px
+            margin-bottom: 10px
+            &:hover ~ .product__cart-btn
+                opacity: 1
+ 
+            
+            
+        &__cart-btn
+            width: 50px
+            height: 50px
+            background: $color-lightblue
+            color: #000
+            border-radius: 50%
+            display: grid
+            place-items: center
+            transition: $transition-primary
+            cursor: pointer
+            font-size: 15px
+            font-weight: bold
+            border-color: transparent
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            opacity: 0
+            overflow: hidden
+            display: flex
+            background-image: url('../../images/cart-add.svg')
+            background-size: 70%
+            background-repeat: no-repeat
+            padding: 0
+            background-position: center
+            transition: $transition-primary
+            &:hover
+                opacity: 1
+
+
+
+        &__icon
+            width: 50px
+            height: 50px
+            background: $color-lightblue
+            color: #000
+            display: grid
+            place-items: center
+            border-radius: 50%
+            transition: $transition-primary
+            cursor: pointer
+            font-size: 15px
+            font-weight: bold
+            border-color: transparent
+
+            
+
+
+        &__icon-img
+            width: 20px
+            height: 20px
+
+        &__title
+            margin-bottom: 5px
+            text-transform: capitalize
+            letter-spacing: 1.5px
+            font-size: 20px
+            font-weight: bold
+            color: $color-blue
+
+        &__price
+            margin-bottom: 0
+            color: $color-beige
+            font-weight: bold
+            font-size: 15px
+
+
+
+    .filters
+            
+
+        &__container
+            position: sticky
+            top: 35px
+
+
+    .form
+        
+        
+        &__input
+            padding: 8px
+            background: $color-lightblue
+            border-radius: 5px
+            border-color: transparent
+            letter-spacing: 1.5
+
+
+    .brands
+        font-weight: 500
+        margin: 25px 0 8px
+        font-size: 15px
+
+
+        &__btn
+            display: block
+            margin: 5px 0
+            padding: 5px
+            text-transform: capitalize
+            background: transparent
+            border-color: transparent
+            letter-spacing: 1.5px
+            color: $color-blue
+            cursor: pointer
+            transition: $transition-primary
+            
+
+    .price
+        font-weight: 500
+        margin: 25px 0 8px
+        font-size: 15px
+
+        &__value
+            color: $color-blue
+        
+
